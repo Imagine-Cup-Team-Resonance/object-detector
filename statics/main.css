@@ -61,3 +61,30 @@
 h2, .form-label, .form-control, .btn {
     font-family: "Chivo Mono", sans-serif;
 }
+
+.result-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.resultimage-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.resultimage-container-box {
+    text-align: center;
+    margin: auto;
+    font-family: "Roboto Mono";
+    background-color: #00000080;
+    border-radius: 7px;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    width: 900px;
+    height: 700px;
+    color: white;
+}
+
+.image {
+    margin: 30px;
+}

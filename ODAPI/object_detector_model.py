@@ -103,8 +103,6 @@ def detect(scene, object):
   # drawing rectange
   cv2.rectangle(img_detected,top_left, bottom_right, (0,0,255), 2)
 
-  cv2.imwrite('color_img.jpg', img_detected)
-
   # print(type(img_detected))
 
   # img_detected = Image.fromarray(img_detected)
