@@ -1,0 +1,63 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: "Chivo Mono", sans-serif;
+}
+
+.middle-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.middle-container-box {
+    margin: auto;
+    font-family: "Roboto Mono";
+    /* background-color: #00000080;
+    border-radius: 7px; */
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    width: 900px;
+    height: 150px;
+    color: white;
+    padding: 20px;
+}
+
+/* .col {
+    background-color: black;
+} */
+
+.fileuploader {
+    height: 200px;
+    border-radius: 7px;
+    background-color: #00000080;
+    color: white;
+}
+
+.file {
+    margin: 35px 20px;
+    /* margin-top: 40px; */
+    text-align: center;
+}
+
+.bottom-form {
+    color: white;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    margin: 40px;
+    width: 550px;
+    text-align: center;
+    /* height: 400px; */
+    border-radius: 7px;
+    padding: 20px;
+    background-color: black;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+h2, .form-label, .form-control, .btn {
+    font-family: "Chivo Mono", sans-serif;
+}
