@@ -1,4 +1,5 @@
 import os
+from decouple import config
 
 """
 Django settings for object_detector project.
@@ -22,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qfo7$%=l)jvp)!(x-)-tm4+9_wn^v-6zmp1jl9^eb__rnm8mpb'
+SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
